@@ -4,7 +4,7 @@ const homelist = (req, res) => {
     title: 'Online Auction System',
     pageHeader: {
     title: 'Online Auction System',
-    strapline: '---Hassle Free Access To Products!---'
+    strapline: '__Hassle Free Access To Products!__'
     },
     locations: [{
     name: 'Sports Auction Facility',
@@ -35,8 +35,8 @@ const homelist = (req, res) => {
     const addReview = (req, res) => {
     res.render('location-review-form', { title: 'Add review' });
     };
-    module.exports = {
+module.exports = {
         homelist,
         locationInfo,
         addReview
-        };
+    };    
