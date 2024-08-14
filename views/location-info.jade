@@ -1,0 +1,72 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 Sports Auction Facility
+
+  .row
+    .col-12.col-lg-9
+      .row
+        .col-12.col-md-6
+          p.rating
+            i.fas.fa-star
+            i.fas.fa-star
+            i.fas.fa-star
+            i.far.fa-star
+            i.far.fa-star
+          p Any Internet Facility Near You
+
+          
+
+          .card.card-primary
+            .card-block
+              h2.card-title Facilities
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;Products
+              
+
+        .col-12.col-md-6.location-map
+          .card.card-primary
+            .card-block
+              h2.card-title Location map
+              img.img-fluid.rounded(src='https://www.google.com/maps/place/Anurag+University,+Hyderabad/@17.4200774,78.6560408,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNlkakqb3z7cLxdME914iI9mHIoWKAD3HQpY94h!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNlkakqb3z7cLxdME914iI9mHIoWKAD3HQpY94h%3Dw129-h86-k-no!7i4912!8i3256!4m7!3m6!1s0x3bcb76730bf4dccf:0x2ca84b53416f0abd!8m2!3d17.4200774!4d78.6560408!10e5!16s%2Fg%2F11b6xh_qcw?authuser=0&entry=ttu#')
+
+    .row
+      .col-12
+        .card.card-primary.review-card
+          .card-block
+            a.btn.btn-primary.float-right(href='/location/review/new') ➥ Add review
+            h2.card-title Customer reviews
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.review Chandrasekhar
+                small.review Timestamp 16 February 2024
+              .col-12
+                p Liked all the products!
+
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.reviewAuthor Brinda
+                small.reviewTimestamp 14 February 2024
+              .col-12
+                p It was okay. The products are really great.
+
+    .col-12.col-lg-3
+      p.lead
+        | Online Auction System is a destination if you wanna buy different products.
+      p
+        | If you've been and you like it - or if you don't - please leave a review to help other people just like you.
