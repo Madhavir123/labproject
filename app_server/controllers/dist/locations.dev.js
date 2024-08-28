@@ -6,25 +6,25 @@ var homelist = function homelist(req, res) {
     title: 'Online Auction System',
     pageHeader: {
       title: 'Online Auction System',
-      strapline: '---Hassle Free Access To Products!---'
+      strapline: '__Hassle Free Access To Products!__'
     },
     locations: [{
       name: 'Sports Auction Facility',
-      address: 'Any Internet Facility Near You',
+      //address: 'Any Internet Facility Near You',
       rating: 3,
-      facilities: ['Products', 'Premium wifi'],
+      products: ['Cricket kit', 'Racket'],
       distance: '100m'
     }, {
       name: 'Cafe Hero',
-      address: 'Any Internet Facility Near You',
+      // address: 'Any Internet Facility Near You',
       rating: 4,
-      facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+      products: ['Hot drinks', 'Food', 'Premium wifi'],
       distance: '200m'
     }, {
       name: 'Burger Queen',
-      address: 'Any Internet Facility Near You',
+      //address: 'Any Internet Facility Near You',
       rating: 2,
-      facilities: ['Food', 'Premium wifi'],
+      products: ['Food', 'Premium wifi'],
       distance: '250m'
     }]
   });
